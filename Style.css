@@ -1,7 +1,7 @@
 *{
     margin:0;
 }
-.nav{
+nav{
     top:0;
     background-color: white;
     width: 100%;
@@ -43,7 +43,11 @@
     align-items: center;
     cursor: pointer; 
 }
-.navigation1 h4{
+a{
+    text-decoration: none;
+    color: black;
+}
+.navigation1 a{
     padding-left: 50px;
     cursor: pointer;
 }
@@ -57,7 +61,7 @@
     padding-right: 10px;
     cursor: pointer;
 }
-.navigation3 h4{
+.navigation3 a{
     padding-right: 10px;
     border-width: 1px;
     border-color: gray;
@@ -108,11 +112,11 @@ opacity: 0.5;
 .homepic{
     display: flex;
     cursor: pointer;
-    padding-right: 300px;
+    width: 100%;
    
 }
 .homepic img{
-    width: 129%;
+    width: 100%;
 }
 .categories
 {
